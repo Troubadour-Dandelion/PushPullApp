@@ -11,7 +11,7 @@ public class DataPopulationScheduler {
     @Autowired
     private DataPopulationService dataPopulationService;
 
-    @Scheduled(fixedRate = 30000) // Run every 30 secs
+    @Scheduled(fixedRate = 60000) // Run every 6    0 secs
     public void populateData() {
         dataPopulationService.populateDummyData();
     }

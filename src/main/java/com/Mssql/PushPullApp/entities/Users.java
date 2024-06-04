@@ -5,10 +5,10 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 
 @Entity 
-public class User {
+public class Users {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
     private String name;
@@ -17,10 +17,10 @@ public class User {
 
     // Constructors, getters, and setters
 
-    public User() {
+    public Users() {
     }
 
-    public User(String name, String email) {
+    public Users(String name, String email) {
         this.name = name;
         this.email = email;
     }

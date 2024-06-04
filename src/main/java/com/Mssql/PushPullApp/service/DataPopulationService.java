@@ -4,7 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.Mssql.PushPullApp.Repositories.UserRepository;
-import com.Mssql.PushPullApp.entities.User;
+import com.Mssql.PushPullApp.entities.Users;
 
 import java.util.Random;
 
@@ -16,10 +16,12 @@ public class DataPopulationService {
 
     public void populateDummyData() {
         Random random = new Random();
-        for (int i = 0; i < 10; i++) {
-            User user = new User();
+        int num=random.nextInt(1000);
+        for (int i = num; i < num+10; i++) {
+            Users user = new Users();
             user.setName("User" + i);
             user.setEmail("user" + i + "@example.com");
+            System.out.println(user.toString());
             userRepository.save(user);
         }
     }
