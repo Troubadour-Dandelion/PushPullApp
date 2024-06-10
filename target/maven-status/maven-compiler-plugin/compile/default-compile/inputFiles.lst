@@ -1,0 +1,7 @@
+/Users/ts-rajat.b.sharma/CodesAndRepos/PushPullApp/src/main/java/com/Mssql/PushPullApp/Configuration/RestTemplateConfig.java
+/Users/ts-rajat.b.sharma/CodesAndRepos/PushPullApp/src/main/java/com/Mssql/PushPullApp/Controller/TempController.java
+/Users/ts-rajat.b.sharma/CodesAndRepos/PushPullApp/src/main/java/com/Mssql/PushPullApp/PushPullAppApplication.java
+/Users/ts-rajat.b.sharma/CodesAndRepos/PushPullApp/src/main/java/com/Mssql/PushPullApp/Repositories/UserRepository.java
+/Users/ts-rajat.b.sharma/CodesAndRepos/PushPullApp/src/main/java/com/Mssql/PushPullApp/entities/Users.java
+/Users/ts-rajat.b.sharma/CodesAndRepos/PushPullApp/src/main/java/com/Mssql/PushPullApp/scheduler/DataPopulationScheduler.java
+/Users/ts-rajat.b.sharma/CodesAndRepos/PushPullApp/src/main/java/com/Mssql/PushPullApp/service/DataPopulationService.java
